@@ -16,6 +16,7 @@ const Cube = (props) => {
         <meshBasicMaterial attach="material" map={texture} />
         <boxGeometry />
       </mesh>
+      {/*  */}
     </RigidBody>
   );
 };
